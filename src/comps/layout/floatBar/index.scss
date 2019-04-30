@@ -1,0 +1,58 @@
+@import "../../../public/css/mixin";
+@import "../../../public/css/base";
+@import "../../../public/css/iconfont";
+
+.more {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 15px;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+}
+.account,.notes {
+  width: 40px;
+  height:40px;
+  border-radius: 40px;
+  padding: 15px;
+  position: fixed;
+  right: 38px;
+  bottom: 48px;
+}
+.icon-more {
+  font-size: 56px;
+}
+
+
+.animation-open-top {
+  animation-name: openTop;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both
+}
+
+.animation-open-left {
+  animation-name: openLeft;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both
+}
+
+@keyframes openTop {
+  from {
+    bottom: 40px;
+  }
+  to {
+    bottom: 150px;
+  }
+}
+
+@keyframes openLeft {
+  from {
+    right: 38px;
+  }
+  to {
+    right: 140px;
+  }
+}

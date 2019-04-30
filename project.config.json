@@ -1,0 +1,14 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "base",
+  "description": "basic project",
+  "appid": "wxf4df0790c53d5662",
+  "cloudfunctionRoot": "./cloud",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

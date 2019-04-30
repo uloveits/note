@@ -1,0 +1,34 @@
+@import "../../../public/css/mixin";
+@import "../../../public/css/base";
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.userCard {
+  padding: 20px;
+}
+.card {
+  width: 100%;
+  //border: 1px solid $color-primary;
+  background: $color-primary;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  //box-shadow: 5px 5px 5px $color-primary;
+}
+.gif-wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+  mix-blend-mode: screen;
+  height: 100px;
+}
+.image {
+  width: 32Px;
+}
+.order{
+  height: 10px;
+  border-bottom: 1px solid $color-muted;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 3px 3px $color-muted;
+}
